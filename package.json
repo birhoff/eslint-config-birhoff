@@ -1,15 +1,14 @@
 {
-  "name": "eslint-config-pedant",
-  "version": "0.8.0",
-  "description": "Pedant preset for eslint",
+  "name": "eslint-config-birhoff",
+  "version": "0.0.1",
+  "description": "Birhoff preset for eslint",
   "license": "MIT",
-  "repository": "blond/eslint-config-pedant",
-  "author": "Andrew Abramov <mail@blond.im> (github.com/blond)",
+  "repository": "birhoff/eslint-config-birhoff",
+  "author": "Konstantin Gladkikh <birhoff@gmail.com>",
   "keywords": [
     "eslint",
     "config",
     "preset",
-    "pedant",
     "errors",
     "typos",
     "variables",
@@ -17,8 +16,6 @@
     "best",
     "practices",
     "es6",
-    "es5",
-    "es3",
     "js",
     "lint"
   ],
@@ -26,8 +23,6 @@
   "files": [
     "lib/**",
     "index.js",
-    "es3.js",
-    "es5.js",
     "es6.js"
   ],
   "engines": {
@@ -36,7 +31,9 @@
   "peerDependencies": {
     "eslint": "^3.3.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "eslint-config-pedant": "^0.8.0"
+  },
   "devDependencies": {
     "eslint": "^3.3.0"
   },
