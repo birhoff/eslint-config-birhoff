@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-birhoff",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Birhoff preset for eslint",
   "license": "MIT",
   "repository": "birhoff/eslint-config-birhoff",
