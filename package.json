@@ -29,15 +29,17 @@
     "node": ">= 4"
   },
   "peerDependencies": {
-    "eslint": "^3.3.0"
+    "eslint": ">=4"
   },
   "dependencies": {
-    "eslint-config-pedant": "^0.8.0"
+    "eslint-config-pedant": "^0.9.0"
   },
   "devDependencies": {
-    "eslint": "^3.3.0"
+    "eslint": "^4.1.1"
   },
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "release": "standard-version; git push --follow-tags origin master",
+    "github-release": "conventional-github-releaser -p angular -r 0"
   }
 }
